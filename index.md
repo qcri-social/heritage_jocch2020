@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Detection of Disaster-Affected Cultural Heritage Sites from Social Media Images Using Deep Learning Techniques
 
-You can use the [editor on GitHub](https://github.com/qcri-social/heritage_jocch2020/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Pakhee Kumar, Ferda Ofli, [Muhammad Imran](https://mimran.me/), Carlos Castillo
+Published in the ACM Journal on Computing and Cultural Heritage (JOCCH), 2020.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Abstract
+This paper describes a method for early detection of disaster-related damage to cultural heritage. It is based on data from social media, a timely and large-scale data source that is nevertheless quite noisy. First, we collect images posted on social media that may refer to a cultural heritage site. Then, we automatically categorize these images according to two dimensions: whether they are indeed a photo in which a cultural heritage resource is the main subject, and whether they represent damage. Both categorizations are challenging image classification tasks, given the ambiguity of these visual categories; we tackle both tasks using a convolutional neural network. We test our methodology on a large collection of thousands of images from the web and social media, which exhibit the diversity and noise that is typical of these sources, and contain buildings and other architectural elements, heritage and non-heritage, damaged by disasters as well as intact. Our results show that while the automatic classification is not perfect, it can greatly reduce the manual effort required to find photos of damaged cultural heritage by accurately detecting relevant candidates to be examined by a cultural heritage professional.
 
-### Markdown
+## Demo
+Check out our online [demo](https://aidr-heritage.qcri.org/). Use one of the existing images or upload your own to determine whether the image is heritage-related or not and whether it shows any damage or not.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/qcri-social/heritage_jocch2020/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Dataset
+The dataset used in this paper can be download [here](https://crisisnlp.qcri.org).
