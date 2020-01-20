@@ -10,4 +10,4 @@ This paper describes a method for early detection of disaster-related damage to 
 Check out our online [demo](https://aidr-heritage.qcri.org/). Use one of the existing images or upload your own to determine whether the image is heritage-related or not and whether it shows any damage or not.
 
 ## Dataset
-The dataset used in this paper can be download [here](https://crisisnlp.qcri.org).
+The dataset used in this paper will be available [here](https://crisisnlp.qcri.org).
